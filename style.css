@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #4b1f0e;
+}
+
+#menu {
+
+}
+
+#gameScreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#playerStatus {
+    background-color: black;
+    height: 90%;
+    width: 30%;
+}
+
+#actionScreen {
+    background-color: red;
+    height: 90%;
+    width: 60%;
+}
